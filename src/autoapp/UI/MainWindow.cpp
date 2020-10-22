@@ -1970,6 +1970,7 @@ void f1x::openauto::autoapp::ui::MainWindow::tmpChanged()
     if (std::ifstream("/tmp/temp_recent_list") || std::ifstream("/tmp/mobile_hotspot_detected")) {
         if (ui_->pushButtonWifi->isVisible() == false) {
             ui_->pushButtonWifi->show();
+            f1x::openauto::autoapp::ui::MainWindow::openConnectDialog();
         }
         if (ui_->pushButtonNoWiFiDevice->isVisible() == true) {
             ui_->pushButtonNoWiFiDevice->hide();
