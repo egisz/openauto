@@ -1638,6 +1638,9 @@ USB Device</string>
             </property>
             <item>
              <widget class="QPushButton" name="pushButtonWifi">
+              <property name="default">
+                <bool>1</bool>
+              </property>
               <property name="sizePolicy">
                <sizepolicy hsizetype="Expanding" vsizetype="Expanding">
                 <horstretch>0</horstretch>

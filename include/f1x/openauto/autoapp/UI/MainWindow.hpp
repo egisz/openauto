@@ -302,6 +302,9 @@ protected:
         if (event->key() == Qt::Key_L) {
             MainWindow::KeyPress("L");
         }
+        if (event->key() == Qt::Key_Z) {
+            MainWindow::KeyPress("Z");
+        }        
     }
 };
 

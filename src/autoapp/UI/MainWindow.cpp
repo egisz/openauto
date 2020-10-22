@@ -1686,6 +1686,9 @@ void f1x::openauto::autoapp::ui::MainWindow::KeyPress(QString key)
                 playerHide();
             }
         }
+        if (key == "Z") {
+            f1x::openauto::autoapp::ui::MainWindow::openConnectDialog();
+        }        
     }
 }
 
